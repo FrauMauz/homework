@@ -3,7 +3,7 @@
 ## Welcome our Exercise 8 homework README 
 
 <p align="center">
-  <img src="https://media.giphy.com/media/dNgK7Ws7y176U/giphy.gif" alt="homework" width="50%">
+  <img src="https://i.pinimg.com/originals/bd/37/c1/bd37c1ad61f398d0bcb17acb90009cf0.jpg" alt="homework" width="60%">
 <p>
 
 ## TEAM 
