@@ -1,38 +1,64 @@
 # Systems Development and Frameworks - 2020/21
 
-This is the homework repository of course `Systems Development and Frameworks`
-at `Hochschule für Technik und Wirtschaft` in Berlin.
-
+## Welcome our Exercise 8 homework README 
 
 <p align="center">
   <img src="https://media.giphy.com/media/dNgK7Ws7y176U/giphy.gif" alt="homework" width="50%">
 <p>
 
-## Homework - Exercise #0
+## TEAM 
+Dirty_thirties is the homework team consisting of
+```
+Jenny | Nele | Sarah 
+```
+This README is created to share and publish our homework for Systems Development & Frameworks.
 
-1. Find team members to groups of 2-3 people. Together, come up with a team name (Team names must be url-safe). We will setup a team on Github and Moodle for you. Kudos for a team name with a corresponding emoji. 
-2. Make a copy of this repository (using a second remote). Ensure that each member of your team has sufficient access. :star:
-3. Replace the content of this `README.md` with your individual content. Here's a Github [README.md template](https://github.com/othneildrew/Best-README-Template) and there are more [awesome READMEs](https://github.com/matiassingers/awesome-readme) out there. :star:
+## Exercise 8
 
-You can also have a look on the community checklist to get inspiration:
+| Deadline                   | Date                   |
+| -------------------------- | ---------------------- |
+| **Final Due date**         | **03.02.2021 - 14:00** |
 
 
-![community checklist](./.github/img/community_checklist.png)
+### GOAL
 
-### How to submit homework
+In this exercise we practice how to implement a design specification given in the form of an image or document. You do not necessarily have to extend exercise 1-7 (this is optional, see [Optional Objectives](#optional-objectives)). Make it clear in your Pull Requests how we can build and test your solution. 
 
-You have to create a feature branch first, commit your code and push it to your
-copy of the homework repository. Then create a pull request with your feature
-branch as the target branch and request a review from your teachers.
+The goal is to implement a simplified [Holy Grail layout](https://en.wikipedia.org/wiki/Holy_grail_(web_design)) with a header, content and footer section. Header and content must be responsive. It is advised to make use of [media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) for responsiveness and [CSS grids](https://developer.mozilla.org/de/docs/Web/CSS/CSS_Grid_Layout) for the layout.
 
-![create pull request](./.github/img/create_pr.png)
+## Installation instructions
 
-Make sure that you *watch* the original homework repository. That's where we
-update exercise descriptions. Keep your own copy up-to-date by merging in new
-commits of the original repository.
+To install the dependencies via npm:
+```
+$ npm install
+```
+Run Linter
+```
+$ npm run lint
+```
+Test Linter
+```
+$ npm run test
+```
+Run Backend
+```
+$ npm run dev
+```
 
-![watch home repository](./.github/img/watch_repo.png)
+## Objectives
 
-Do not submit lengthy pull request. Pull requests with a large `diff` in
-`Files changed` tab are difficult to review. If you want to get good feedback on
-your pull requests, don't push unrelated changes.
+:star: For a header and it's responsiveness (direct links vs. hamburger menu)
+
+:star: For a content section and it's content items
+
+:star: For a responsive content section (3-column vs 1-column layout)
+
+:star: For responsive content items (1-column vs. 2-column layout)
+
+:star: For a footer
+
+All objectives must be implemented according to the [instructions](#instructions).
+
+
+---
+... YAYYYY last exercise  ... :stuck_out_tongue_closed_eyes:
